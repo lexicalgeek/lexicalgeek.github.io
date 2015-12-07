@@ -1491,7 +1491,7 @@ convex {
 
 body#love-page {
 		margin-top:0px;
-		font-family:'Roboto';
+		font-family:'Open Sans';
 		// background-image: url('../images/logos/ualogo.svg');
 		// background-size:contain;
 		// background-repeat:no-repeat;
@@ -1508,6 +1508,18 @@ body#love-page {
             font-size: 24px;
             padding-left:10px;
             font-weight:300;
+            padding-top:5px;
+            padding-bottom:2px;
+            a{
+                color:white;
+                text-decoration:none;
+                &:visited,&:hover,&:active{
+                    color:white;
+                }
+                &:hover {
+                    text-decoration:underline;
+                }
+            }
         }
     }
     section {
@@ -1526,6 +1538,9 @@ body#love-page {
     		color:red;
     		font-size:.75em;
     		margin-top:15px;
+            background-color:white;
+            padding:5px;
+            font-weight:bold;
     	}
     }
     a#back-to-slideshow {
@@ -1533,8 +1548,8 @@ body#love-page {
         display: block;
         text-decoration: none;
         position: fixed;
-        top: 10px;
-        right: 10px;
+        top: 12px;
+        right: 12px;
         color:white;
         &:active,
         &:visited,
@@ -1560,10 +1575,6 @@ body#love-page {
     [data-tracking-area="footer"] {
     	display:none!important;
     }
-}
-
-body#linda-slideshow {
-	background-color:#005daa;
 }
 
 //my slideshow styles

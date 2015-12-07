@@ -1365,7 +1365,7 @@ html:-moz-full-screen-ancestor {
 
 body#love-page {
   margin-top: 0px;
-  font-family: 'Roboto';
+  font-family: 'Open Sans';
   background-color: #005daa; }
   body#love-page header {
     margin-top: -18px;
@@ -1378,7 +1378,16 @@ body#love-page {
       line-height: 1.5;
       font-size: 24px;
       padding-left: 10px;
-      font-weight: 300; }
+      font-weight: 300;
+      padding-top: 5px;
+      padding-bottom: 2px; }
+      body#love-page header h1 a {
+        color: white;
+        text-decoration: none; }
+        body#love-page header h1 a:visited, body#love-page header h1 a:hover, body#love-page header h1 a:active {
+          color: white; }
+        body#love-page header h1 a:hover {
+          text-decoration: underline; }
   body#love-page section {
     color: white;
     display: block;
@@ -1394,14 +1403,17 @@ body#love-page {
     body#love-page section p#warning {
       color: red;
       font-size: .75em;
-      margin-top: 15px; }
+      margin-top: 15px;
+      background-color: white;
+      padding: 5px;
+      font-weight: bold; }
   body#love-page a#back-to-slideshow {
     float: right;
     display: block;
     text-decoration: none;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 12px;
+    right: 12px;
     color: white; }
     body#love-page a#back-to-slideshow:active, body#love-page a#back-to-slideshow:visited, body#love-page a#back-to-slideshow:hover {
       color: white; }
@@ -1417,9 +1429,6 @@ body#love-page {
         max-width: 650px; } }
   body#love-page [data-tracking-area="footer"] {
     display: none !important; }
-
-body#linda-slideshow {
-  background-color: #005daa; }
 
 p > small a {
   color: white; }
