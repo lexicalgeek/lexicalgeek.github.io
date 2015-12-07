@@ -1296,3 +1296,6 @@ html:-moz-full-screen-ancestor {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+#love-page h1 {
+  color: #01589B; }
