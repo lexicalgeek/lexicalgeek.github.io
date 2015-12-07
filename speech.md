@@ -33,5 +33,7 @@ In March of 1990, when most kids were piling into their parents' minivan for the
 - Moreover, I don't think I could be more fortunate to have spent the last 35 years with Linda Watters. Sure she's proven to be an almost insanely devoted United employee, but more importantly, she's the best Mom, wife, daughter, and Gigi anyone could ever ask for.
 
 I'm very proud of you Mom, and I love you very much. Aloha!
+
+Also, this site is live, mobile and touch friendly, and includes a secondary page. You can go to lindawatters.rocks for the presentation or directly to lindawatters.rocks/leavesomelove/ and add a comment or well wishing to the wall.
  
 

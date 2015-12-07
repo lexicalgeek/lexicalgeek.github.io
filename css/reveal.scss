@@ -1492,6 +1492,7 @@ convex {
 body#love-page {
 		margin-top:0px;
 		font-family:'Open Sans';
+        overflow-y:scroll;
 		// background-image: url('../images/logos/ualogo.svg');
 		// background-size:contain;
 		// background-repeat:no-repeat;
@@ -1566,6 +1567,7 @@ body#love-page {
     #disqus_thread {
         max-width: 90%;
         margin-left: 5%;
+        margin-bottom:50px;
         @include MQ(M){
         	margin-left:auto;
         	margin-right:auto;
