@@ -1432,3 +1432,14 @@ body#love-page {
 
 p > small a {
   color: white; }
+
+img#mom-photo {
+  max-width: 300px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: block; }
+  @media only screen and (min-width: 640px) {
+    img#mom-photo {
+      max-width: 460px; } }

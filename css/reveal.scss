@@ -1582,3 +1582,15 @@ body#love-page {
 p > small a{
 	color:white;
 }
+
+img#mom-photo {
+    max-width:300px;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    display:block;
+    @include MQ(M){
+        max-width:460px;
+    }
+}
